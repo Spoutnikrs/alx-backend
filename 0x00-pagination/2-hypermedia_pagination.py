@@ -8,7 +8,8 @@ from typing import List
 
 def index_range(page: int, page_size: int) -> tuple:
     """
-    Return a tuple of size two containing a start/end index corresponding to the range of indexes
+    Return a tuple of size two containing a start/end
+    index corresponding to the range of indexes
     """
 
     start_index = (page - 1) * page_size
@@ -53,7 +54,8 @@ class Server:
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> dict:
         """
-        return a dictionary containing the metadata info"""
+        return a dictionary containing the metadata info
+        """
         metadata = {}
 
         start_index, end_index = index_range(page, page_size)

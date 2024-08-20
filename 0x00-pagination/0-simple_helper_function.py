@@ -6,7 +6,8 @@ Module to define function
 
 def index_range(page: int, page_size: int) -> tuple:
     """
-    Return a tuple of size two containing a start/end index corresponding to the range of indexes
+    Return a tuple of size two containing a start/end
+    index corresponding to the range of indexes
     """
 
     start_index = (page - 1) * page_size
